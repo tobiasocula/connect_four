@@ -31,6 +31,7 @@ def play():
                 except:
                     return False
             return all(local_array)
+            
         def leftright(y,x):
             local_array = []
             for i in range(1,4):
@@ -39,6 +40,7 @@ def play():
                 except:
                     return False
             return all(local_array)
+            
         def diagonal_1(y,x):
             local_array = []
             for i in range(1,4):
@@ -47,6 +49,7 @@ def play():
                 except:
                     return False
             return all(local_array)
+            
         def diagonal_2(y,x):
             local_array = []
             for i in range(1,4):
